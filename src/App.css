@@ -1,0 +1,67 @@
+/* Basic reset for consistent styling */
+* {
+  margin: 0;
+  padding: 0;  
+  
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.site-nav li {
+  margin-left: 1rem;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+  padding: 2rem;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
